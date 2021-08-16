@@ -80,4 +80,4 @@ cloop:
 swap:
 	sw t4,0(t0)		#vetor[i] = vetor[i+1]
 	sw t3,4(t0)		#vetor[i+1] = vetor[i]
-	j check
+	j loop
